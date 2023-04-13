@@ -1,3 +1,4 @@
-export const allUsers = (req, res) => {
-  res.status(200).send({ users: ["a", "b", "c"] });
+
+export const signin = (req, res) => {
+  res.status(200).send("Welcome@ signin");
 };
