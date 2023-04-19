@@ -4,8 +4,12 @@ const users = [
     { id: 3, name: "shafiq ahmad", gender: "male", dob: "30-11-2000" },
     { id: 4, name: "Faran Shahid", gender: "male", dob: "1-12-2001" },
     { id: 5, name: "Usman Khalid", gender: "male", dob: "2-1-2002" },
+    { id: 6, name: "Cheema", gender: "male", dob: "2-1-2002" },
+    { id: 7, name: "Babar Azam", gender: "male", dob: "2-1-2002" },
+    { id: 8, name: "Usman Dar", gender: "male", dob: "2-1-2002" },
+    { id: 9, name: "bilo Dar", gender: "male", dob: "2-1-2002" },
   ];
   export const allUsers = (req, res) => {
-    res.status(200).send(users);
+    res.status(200).json(users);
   };
   
